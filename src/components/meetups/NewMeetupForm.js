@@ -32,6 +32,7 @@ function NewMeetupForm(props) {
   function imageInputChange(event) {
     setImage(event.target.value);
   }
+  
   return (
     <Card>
       <form className={classes.form} onSubmit={submitHandler}>
